@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "272378325265",
+    "firebase_url": "https://healthapp-4a348-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "healthapp-4a348",
+    "storage_bucket": "healthapp-4a348.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272378325265:android:9775d456c46e828ca584b0",
+        "android_client_info": {
+          "package_name": "com.robiul.healthapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272378325265-sl18of1tfpe465rav137rlr8fienf99d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd6mCvu6ngrQ169y8BFHGgkcHvUCM9x28"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272378325265-sl18of1tfpe465rav137rlr8fienf99d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

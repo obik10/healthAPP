@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Health APP</string>
+    <string name="register">DAFTAR</string>
+    <string name="belum_punya_akun">Belum punya akun?</string>
+    <string name="loginBtn">MASUK</string>
+    <string name="password">Masukkan password</string>
+    <string name="email">Masukkan email</string>
+    <string name="login">LOGIN</string>
+    <string name="selamat_datang">Selamat Datang</string>
+    <string name="txt_pengguna">Pengguna</string>
+
+    <string-array name="jenisK">
+        <item>Pilih Jenis Kelamin</item>
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
+</resources>

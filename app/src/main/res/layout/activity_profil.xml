@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Profil">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageButton
+            android:id="@+id/imgB_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_back2"
+            android:backgroundTint="@color/white"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="20dp"/>
+
+        <ImageView
+            android:id="@+id/img_profil_pict"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:layout_below="@+id/imgB_back"
+            android:src="@drawable/img_profil_pict"/>
+        <TextView
+            android:id="@+id/tv_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_profil_pict"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="Robiulisa Reponanda"
+            android:textStyle="bold"
+            android:textSize="30sp"/>
+        <TextView
+            android:id="@+id/tv_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_nama"
+            android:layout_centerHorizontal="true"
+            android:text="robiul@gmail.com"
+            android:textSize="20sp"/>
+
+        <ImageButton
+            android:id="@+id/imgB_editProfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_email"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/white"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/img_edit_profpict"/>
+
+        <ImageButton
+            android:id="@+id/imgB_keluar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgB_editProfil"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/white"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/img_keluar"/>
+
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
